@@ -17,5 +17,4 @@ Run `yarn start` and open [http://localhost:3000](http://localhost:3000) to view
 - Display a loading screen while waiting on the response from the OMDB.
 - When the OMDB returns, provide a dropdown with the first ten movies returned by the
   OMDB (i.e. the first page of results)
-- If someone selects a value from the dropdown, show the poster image associated with
-  the selected item.
+- If someone selects a value from the dropdown, show the poster image associated with the selected item.

@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #2980b9;
+  margin: 5vh 0 0;
+}
+
+h2 {
+  color: #f39c12;
+}
+
+input,
+select {
+  border: 1px solid #95a5a6;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.app {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+form.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2.5vh 0;
+  width: 600px;
+
+  input {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+}
+
+.results {
+  align-items: center;
+  color: #7f8c8d;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  font-size: 1.2rem;
+  width: 80vw;
+
+  label {
+    margin-bottom: 20px;
+  }
+
+  strong.num {
+    color: #2980b9;
+  }
+
+  select {
+    margin-left: 10px;
+  }
+
+  img {
+    display: block;
+  }
+}
