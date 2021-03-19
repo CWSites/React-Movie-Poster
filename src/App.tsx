@@ -99,7 +99,7 @@ const Results = ({ movies }: ResultsProps) => {
       ) : (
         <>
           <h2>Today's your lucky day...</h2>
-          <img src={movies[0].Poster} alt="movie poster" />
+          <img src={movies[0].Poster} alt={movies[0].Title} />
         </>
       )}
     </section>
