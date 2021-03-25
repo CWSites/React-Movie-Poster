@@ -1,4 +1,4 @@
-# React-Movie-Poster
+# React Movie Poster
 
 React SPA using OMDB API
 
